@@ -1,0 +1,140 @@
+body{
+	font-family: 'Nunito', sans-serif;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.top-banner{
+	border-radius: 1px;
+	padding: 0px 40px 0px 40px;
+	background: url('../img/bg.jpg') center no-repeat, linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+	background-size: cover;
+	background-blend-mode: overlay;
+	height: 400px;
+	overflow: hidden;
+	max-height: 100%;
+}
+
+.container {
+	width: 1240px;
+	max-width: 100%;
+}
+
+.description{
+	width: 570px;
+	color: #fff;
+	padding: 100px 200px 0px 0px;
+}
+
+.description > h4 {
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 1rem;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+
+.description > .name {
+	font-size: 30px;
+	color: #3F51B5;
+	letter-spacing: 0.2em;
+	margin-bottom: 1rem;
+}
+
+.underline{
+	border-bottom: solid 2px #3F51B5;
+    display: inline;
+    padding-bottom: 2px;
+    font-weight: 600;
+    font-size: 17px
+}
+
+.description > .writing {
+	letter-spacing: 0.1em;
+	font-weight: 500;
+}
+
+.projects{
+	background-color: #FFF;
+	height: auto;
+	padding: 20px;
+	overflow: hidden;
+}
+
+.projects > .section-title > p{
+	font-weight: 900;
+	font-size: 25px;
+    letter-spacing: 0.1em;
+    width: auto;
+}
+
+.projects > .section-title{
+	margin-bottom: 3rem;
+	padding: 0px 20	0px 0px 0px;
+}
+
+.project-title {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.project-description{
+	width: 400px;
+}
+
+#project{
+	margin: 5% 0% 5% 0%;
+}
+
+.project-image{
+	padding-left: 10%;
+}
+
+.stack-used{
+	color: rgba(0,0,0,0.4);
+	text-transform: capitalize;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+a, a:hover, a:visited{
+	color:#3F51B5;
+}
+
+.stack-list{
+	background-color: #B3B3B3;
+	padding: 50px;
+}
+
+.contact-me{
+	background: #2E2E2E;
+	padding: 150px;
+	min-height: 50%
+}
+
+.footer-top > p{
+	text-align: center;
+	font-size: 23px;
+	color: #fff;
+	letter-spacing: 6px;
+	line-height: 3rem;
+}
+
+.emphasis{
+	border-bottom: solid 2px #3F51B5;
+    display: inline;
+    padding-bottom: 2px;
+    font-weight: 300;
+}
+
+.big-icon{
+	color: #FFF;
+	font-size: 30px;
+}
+
+.handle, .handle:hover, .handle:visited{
+	color: #FFF;
+	font-size: 17px;
+	text-decoration: none;
+	letter-spacing: 3px;
+	cursor: pointer;
+}
